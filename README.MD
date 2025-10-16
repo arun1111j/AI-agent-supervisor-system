@@ -1,11 +1,13 @@
-Readme.MD file
-Overview
+## Readme.MD file
+### Overview
 Welcome to the Zangoh AI Agent Supervisor Workstation Challenge! In this challenge, you will build a workstation interface that allows human supervisors to monitor, intervene, and improve AI customer service agents.
 Zangoh is developing autonomous AI agents for enterprise customer service. These agents handle routine customer inquiries, but human supervisors need to monitor their performance, step in when necessary, and continuously improve the system. Your task is to build the supervisor workstation that makes this human-in-the-loop workflow possible.
 Challenge Duration
 You have 3 hours to complete this challenge. Please manage your time accordingly.
 Note: You may receive an additional requirement during the challenge. Be prepared to adapt your solution.
-Tech Stack
+### Tech Stack
+
+```
 The challenge uses the following technologies:
 Backend
 Node.js with Express
@@ -27,6 +29,7 @@ Git
 A modern web browser (Chrome or Firefox recommended)
 Setup Steps
 Clone the starter repository
+
 
  git clone https://github.com/zangoh/supervisor-challenge.git
 cd supervisor-challenge
@@ -65,10 +68,11 @@ Initialize test data (if needed)
  The environment comes pre-loaded with test data, but if you need to reset it:
 
  docker-compose exec backend npm run seed
+```
 
-
-Project Structure
+### Project Structure
 The starter code is organized as follows:
+```
 supervisor-challenge/
 ├── backend/                    # Backend API server
 │   ├── data/                   # Sample data
@@ -91,8 +95,10 @@ supervisor-challenge/
 ├── mockups/                    # UI design screenshots
 ├── docker-compose.yml          # Docker Compose configuration
 └── README.md                   # This file
+```
 
-UI Design Reference
+### UI Design Reference
+```
 All UI designs are provided in Figma and as static images in the mockups folder. Your implementation should follow these designs.
 Figma Link: [FIGMA_LINK_HERE]
 The designs include:
@@ -133,6 +139,7 @@ A testing script is provided to help you validate your implementation. Run it wi
 cd testing
 npm install
 node test-runner.js
+```
 
 This will check the core functionality of your implementation and provide feedback on what's working and what needs attention.
 Implementation Requirements
@@ -162,7 +169,7 @@ Study the designs: Familiarize yourself with all screens before starting to unde
 Submission
 When you're done, submit your solution as follows:
 Ensure all code is committed:
-
+```
  git add .
 git commit -m "Final submission"
 
@@ -178,7 +185,7 @@ Upload your submission to the platform or provide a GitHub repository link as in
 
 Include in your submission:
 
-
+```
 Complete source code
 Setup instructions if you've modified the environment
 Brief description of your implementation, challenges faced, and solutions
